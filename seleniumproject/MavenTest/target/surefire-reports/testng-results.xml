@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.kuldeep.seleniumTest.MavenTest.SeleniumTest" duration-ms="21550" started-at="2017-09-24T13:07:03Z" finished-at="2017-09-24T13:07:24Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="21550" started-at="2017-09-24T13:07:03Z" finished-at="2017-09-24T13:07:24Z">
+      <class name="com.kuldeep.seleniumTest.MavenTest.SeleniumTest">
+        <test-method status="PASS" signature="TC_1()[pri:0, instance:com.kuldeep.seleniumTest.MavenTest.SeleniumTest@4501b7af]" name="TC_1" duration-ms="21523" started-at="2017-09-24T18:37:03Z" finished-at="2017-09-24T18:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_1 -->
+      </class> <!-- com.kuldeep.seleniumTest.MavenTest.SeleniumTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.kuldeep.seleniumTest.MavenTest.SeleniumTest -->
+</testng-results>

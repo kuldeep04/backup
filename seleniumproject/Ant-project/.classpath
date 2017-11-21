@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/testNG_practice/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="/testNG_practice/lib/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="/testNG_practice/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/testNG_practice/lib/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="/testNG_practice/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="/testNG_practice/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="/testNG_practice/lib/mysql-connector.jar"/>
+	<classpathentry kind="lib" path="/testNG_practice/lib/org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2.jar"/>
+	<classpathentry kind="lib" path="/testNG_practice/lib/poi-3.16.jar"/>
+	<classpathentry kind="lib" path="/testNG_practice/lib/poi-examples-3.16.jar"/>
+	<classpathentry kind="lib" path="/testNG_practice/lib/poi-excelant-3.16.jar"/>
+	<classpathentry kind="lib" path="/testNG_practice/lib/poi-ooxml-3.16.jar"/>
+	<classpathentry kind="lib" path="/testNG_practice/lib/poi-ooxml-schemas-3.16.jar"/>
+	<classpathentry kind="lib" path="/testNG_practice/lib/poi-scratchpad-3.16.jar"/>
+	<classpathentry kind="lib" path="/testNG_practice/lib/selenium-server-standalone-3.5.0.jar"/>
+	<classpathentry kind="lib" path="/testNG_practice/lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="lib/saxon-8.7.jar"/>
+	<classpathentry kind="lib" path="lib/SaxonLiaison.jar"/>
+	<classpathentry kind="lib" path="lib/testng-6.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

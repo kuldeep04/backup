@@ -1,0 +1,29 @@
+package antProject;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class FirstAntTestclass {
+
+	public WebDriver driver = null;
+	public String geckodriverpath = "D:\\seleniumproject\\MavenTest\\driver\\geckodriver.exe";
+	public String chromedriverpath = "D:\\seleniumproject\\testNG_practice\\driver\\chromedriver.exe";
+	public String IEdriverpath = "D:\\seleniumproject\\testNG_practice\\driver\\IEDriverServer.exe";
+
+	@Test
+	public void TC_1() {
+		System.setProperty("webdriver.gecko.driver", geckodriverpath);
+		driver = new FirefoxDriver();
+		driver.get("http://www.way2automation.com");
+		if(driver.findElement(By.xpath("")).isDisplayed()){
+			System.out.println("way2automation launched");
+		}
+	}
+	@Test
+	public void TC_2(){
+		
+	}
+}

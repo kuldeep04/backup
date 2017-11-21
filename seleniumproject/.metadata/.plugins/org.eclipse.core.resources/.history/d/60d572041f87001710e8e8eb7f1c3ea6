@@ -1,0 +1,51 @@
+package testNG_practice;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.ArrayList;
+
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class ExcelReading {
+	public static ArrayList<String> AL=new ArrayList<String>();
+	
+	public static Workbook workbook(String filepath) throws IOException{
+		String[] arrpath=filepath.split("\\.");
+		String extension=arrpath[1];
+		FileInputStream FIS=new FileInputStream(filepath);
+		Workbook workbook=null;
+		if(extension.equalsIgnoreCase(".xlsx")){
+			 workbook=new XSSFWorkbook(FIS);
+		}else if(extension.equalsIgnoreCase(".xls")){
+			workbook=new HSSFWorkbook(FIS);
+		}
+		return workbook;
+	}
+	public static void Sheet(){
+		
+	}
+	public static void excelreading(String filepath) throws IOException{
+		FileInputStream FIS=new FileInputStream(filepath);
+		Workbook workbook=new XSSFWorkbook(FIS);
+		XSSFSheet sheet=(XSSFSheet) workbook.getSheet("Sheet1");
+		int rowno=sheet.getLastRowNum()-sheet.getFirstRowNum();
+		System.out.println(rowno);
+		int row;
+		for(row=0;row>=rowno;row++){
+			Row getrow= sheet.getRow(row);
+			int cell=getrow.getLastCellNum();
+			System.out.println(cell);
+			int j;
+			for(j=0;j<=cell;j++){
+				System.out.println(getrow.getCell(j).getStringCellValue());
+				
+				AL.add(getrow.getCell(j).getStringCellValue());
+			}
+		}
+	}
+}

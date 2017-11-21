@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project> 
+ 
+ <target name="info" depends="clean,compile,package,deploy"  > 
+<echo>this is  my first ant prject </echo>
+ </target>
+   <target name="clean"   > 
+	<echo>clean the build folder </echo>
+	<delete file="abc"></delete>
+</target>
+   <target name="compile"   > 
+<echo>complile the .java file</echo>
+ </target>
+   <target name="package"   > 
+<echo>it is  packages the .class file</echo>
+</target>
+   <target name="deploy"   > 
+   <echo>it will depoly the application</echo>
+       </target>
+  </project>

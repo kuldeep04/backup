@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/testNG_practice/src/testNG_practice/LinkedIn_SendRequest.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="testNG_practice.LinkedIn_SendRequest"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="testNG_practice"/>
+</launchConfiguration>

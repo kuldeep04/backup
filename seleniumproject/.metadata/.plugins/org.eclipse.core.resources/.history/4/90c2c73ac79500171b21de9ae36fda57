@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<project name="Ant-project"> 
+    <target name ="Firstant">
+        <echo>this is my first ant project</echo>
+    </target>>
+ </project>
+    

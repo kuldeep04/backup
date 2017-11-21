@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project> 
+ 
+ <target name="info"   > 
+<echo>this is  my first ant prject </echo>
+ </target>
+   <target name="clean"   > 
+<echo>this is  my first ant prject </echo>
+</target>
+   <target name="compile"   > 
+<echo>this is  my first ant prject </echo>
+ </target>
+   <target name="package"   > 
+<echo>this is  my first ant prject </echo>
+</target>
+   <target name="deploy"   > 
+   <echo>this is  my first ant prject </echo>
+       </target>
+  </project>

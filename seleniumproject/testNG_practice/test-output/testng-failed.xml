@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <parameter name="browsername" value="FF"/>
+    <parameter name="myname" value="kuldeep yadav"/>
+    <parameter name="URL" value="http://www.google.com"/>
+    <classes>
+      <class name="testNG_practice.TakeScreenShotOnFailure">
+        <methods>
+          <include name="takeScreeShotOnFailure"/>
+          <include name="TC_1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testNG_practice.TakeScreenShotOnFailure -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

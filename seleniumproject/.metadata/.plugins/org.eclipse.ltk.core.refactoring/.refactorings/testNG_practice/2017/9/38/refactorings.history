@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;testNG_practice.Listner&apos; to &apos;Listeners&apos;&#x0D;&#x0A;- Original project: &apos;testNG_practice&apos;&#x0D;&#x0A;- Original element: &apos;testNG_practice.Listner&apos;&#x0D;&#x0A;- Renamed element: &apos;testNG_practice.Listeners&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Listner&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;testNG_practice{Listner.java[Listner" matchStrategy="1" name="Listeners" qualified="false" references="true" similarDeclarations="false" stamp="1505873379722" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,24 @@
+package testNG_practice;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class TestClass {
+	
+	public WebDriver driver;
+	
+	public void TC_1() throws InterruptedException{
+		driver.get("https://www.mylescars.com");
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		driver.findElement(By.xpath("//a[@id='hmsignin']/span")).click();
+		driver.findElement(By.id("mobile")).sendKeys("7011872190");
+		driver.findElement(By.id("contact_auto")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.id("userpassword")).sendKeys("12345678");
+		driver.findElement(By.xpath("//button[@class='sign_in']")).click();
+	}
+
+}
